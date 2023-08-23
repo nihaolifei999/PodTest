@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
 # 项目名称
-  s.name             = 'PodTest'
+  s.name             = 'PTPodTest'
 # 版本号
   s.version          = '0.1.0'
 # 简短描述
-  s.summary          = 'A short description of PodTest.'
+  s.summary          = 'This is my first pod project.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
