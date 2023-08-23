@@ -22,7 +22,7 @@ pod 'PodTest'
 
 ## Author
 
-nihaolifei999, fei.li@ubixai.com
+nihaolifei999, nihaolifei999@gmail.com
 
 ## License
 

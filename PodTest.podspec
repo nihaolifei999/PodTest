@@ -7,8 +7,11 @@
 #
 
 Pod::Spec.new do |s|
+# 项目名称
   s.name             = 'PodTest'
+# 版本号
   s.version          = '0.1.0'
+# 简短描述
   s.summary          = 'A short description of PodTest.'
 
 # This description is used to generate tags and improve search results.
@@ -24,19 +27,24 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/nihaolifei999/PodTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'nihaolifei999' => 'fei.li@ubixai.com' }
+  s.author           = { 'nihaolifei999' => 'nihaolifei999@gmail.com' }
   s.source           = { :git => 'https://github.com/nihaolifei999/PodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+# iOS部署版本
   s.ios.deployment_target = '10.0'
 
+# 全部源文件
   s.source_files = 'PodTest/Classes/**/*'
   
   # s.resource_bundles = {
   #   'PodTest' => ['PodTest/Assets/*.png']
   # }
 
+# 头文件
   # s.public_header_files = 'Pod/Classes/**/*.h'
+# 依赖的framework
   # s.frameworks = 'UIKit', 'MapKit'
+# 依赖的第三方库
   # s.dependency 'AFNetworking', '~> 2.3'
 end
