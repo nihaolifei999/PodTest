@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
 # 项目名称
-  s.name             = 'PTPodTest'
+  s.name             = 'PtPodTest'
 # 版本号
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
 # 简短描述
   s.summary          = 'This is my first pod project.'
 
